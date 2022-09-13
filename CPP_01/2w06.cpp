@@ -1,4 +1,4 @@
-//20215124 ±Ë¥Ÿ¿∫ 06
+//20215124 06
 #include <iostream>
 #include <time.h>
 using namespace std;

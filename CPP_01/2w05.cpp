@@ -1,4 +1,4 @@
-//20215124 ±Ë¥Ÿ¿∫ 05
+//20215124 05
 #include <iostream>
 using namespace std;
 

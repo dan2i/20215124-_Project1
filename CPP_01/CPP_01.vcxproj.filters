@@ -21,5 +21,11 @@
     <ClCompile Include="2w03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2w05.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2w06.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
