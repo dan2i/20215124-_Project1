@@ -15,6 +15,11 @@ int main() {
 		cin >> x >> y;
 		board[x][y] = (k % 2 == 0) ? 'X' : 'O';
 
+		if (board[x][y] != ' ') {
+			cout << "다시 입력하세요" << endl;
+			break;
+		}
+
 		for (i = 0; i < 3; i++) {
 			cout << "---|---|---" << endl;
 			cout << board[i][0] << "  |  " << board[i][1] << "|  " << board[i][2] << endl;
