@@ -8,7 +8,7 @@ int main() {
 
 	cout << "정수를 입력하세요: ";
 	cin >> num;
-	
+
 	cout << i;
 	for (i = 2; i < num; i++) {
 		if (num % i == 0) {
