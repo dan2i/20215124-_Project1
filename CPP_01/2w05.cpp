@@ -29,23 +29,23 @@ int main() {
 		}
 		cout << "---|---|---" << endl;
 
-		//가로 세로 한 줄을 완성하면 끝나도록 하는 탈출 조건!
+		//가로 세로 한 줄을 완성하면 끝나도록 하는 탈출 조건
 		if ((board[0][y] == 'X') && (board[1][y] == 'X') && (board[2][y] == 'X')) {
 			cout << "'X' 플레이어의 우승입니다!" << endl;
 			break;
 		}
 
-		else if ((board[y][0] == 'X') && (board[y][1] == 'X') && (board[y][2] == 'X')) {
+		else if ((board[x][0] == 'X') && (board[x][1] == 'X') && (board[x][2] == 'X')) {
 			cout << "'X' 플레이어의 우승입니다! " << endl;
 			break;
 		}
 
-		if ((board[0][y] == 'O') && (board[1][y] == 'O') && (board[2][y] == 'O')) {
+		else if ((board[0][y] == 'O') && (board[1][y] == 'O') && (board[2][y] == 'O')) {
 			cout << "'O' 플레이어의 우승입니다! " << endl;
 			break;
 		}
 
-		else if ((board[y][0] == 'O') && (board[y][1] == 'O') && (board[y][2] == 'O')) {
+		else if ((board[x][0] == 'O') && (board[x][1] == 'O') && (board[x][2] == 'O')) {
 			cout << "'O'플레이어의 우승입니다! " << endl;
 			break;
 		}
